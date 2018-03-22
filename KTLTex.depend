@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1521611399 source:/home/vudat1710/Downloads/KTLT/KTLTex/main.cpp
+	"random.h"
+	"insertionSort.h"
+	"selectionSort.h"
+	"quickSort.h"
+	<iostream>
+	<cstdlib>
+	<time.h>
+
+1521368644 /home/vudat1710/Downloads/KTLT/KTLTex/random.h
+	<iostream>
+	<cstdlib>
+
+1520521643 source:/home/vudat1710/Downloads/KTLT/KTLTex/insertionSort.cpp
+	"random.h"
+	<iostream>
+	<cstdlib>
+	<time.h>
+
+1521538240 /home/vudat1710/Downloads/KTLT/KTLTex/insertionSort.h
+	<iostream>
+	<cstdlib>
+
+1521542728 /home/vudat1710/Downloads/KTLT/KTLTex/selectionSort.h
+	<iostream>
+	<cstdlib>
+
+1521561722 /home/vudat1710/Downloads/KTLT/KTLTex/quickSort.h
+	<iostream>
+	<cstdlib>
+
