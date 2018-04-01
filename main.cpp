@@ -14,14 +14,12 @@ int main(){
     //int* arr= randomArray(n);
     //int* arr= randomSorted(n);
     int* arr= randomReverse(n);
-    //cout << "Nhap pivot index: ";
-    //cin >> piIndex;
     clock_t tStart = clock();
     //insertionSort(arr, n);
     //selectionSort(arr, n);
     lastElement(arr, 0, n-1);
     //medianElement(arr, 0, n-1);
-    //randomElement(arr, 0, n-1, piIndex);
+    //randomElement(arr, 0, n-1);
     cout << "time taken: " << (double)(clock() - tStart)/CLOCKS_PER_SEC;
     return 0;
 }
