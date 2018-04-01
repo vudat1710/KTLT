@@ -40,19 +40,19 @@ void medianElement(int arr[], int low, int high){
     if (low< high){
         int m= partition(arr, low, high, (low+high)/2);
         if (low < m)
-            lastElement(arr, low, m-1);
+            medianElement(arr, low, m-1);
         if (m < high)
-            lastElement(arr, m+1, high);
+            medianElement(arr, m+1, high);
     }
 }
 
 void randomElement(int arr[], int low, int high, int piIndex){
     if (low< high){
-        int m= partition(arr, low, high, piIndex);
+        int m= partition(arr, low, high, rand()%(high-low);
         if (low < m)
-            lastElement(arr, low, m-1);
+            randomElement(arr, low, m-1);
         if (m < high)
-            lastElement(arr, m+1, high);
+            randomElement(arr, m+1, high);
     }
 }
 
